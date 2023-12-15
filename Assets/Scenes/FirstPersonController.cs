@@ -19,8 +19,8 @@ public class FirstPersonController : MonoBehaviour
     void Update()
     {
         Movement ();
-
     }
+    
     void Movement()
     {
         float inputX = Input.GetAxis("Mouse X") * _mouseSensitivity * Time.deltaTime; 
